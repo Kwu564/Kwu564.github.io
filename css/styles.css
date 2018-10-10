@@ -44,17 +44,19 @@ hr {
 }
 
 .card {
+   text-decoration: none;
    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
    transition: 0.3s;
    border-radius: 5px;
    width: 400px;
-   height: 230px;
+   height: 350px;
    display: inline-block;
    margin: 15px;
-   background-color: rgba(100, 220, 120, 0.1);
+   background-color: rgb(240, 240, 230);
 }
 
 .card:hover {
+   text-decoration: none;
    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -85,4 +87,39 @@ hr {
    color: rgb(70, 70, 70);
    font-weight: bold;
    text-align: center;
+}
+
+.projectName {
+   font-family: "Helvetica";
+   font-size: 20px;
+   color: rgb(70, 70, 70);
+   font-weight: bold;
+   text-align: center;
+}
+
+.pageTitle {
+   font-family: "Helvetica";
+   font-size: 40px;
+   color: rgb(70, 70, 70);
+   font-weight: bold;
+   text-align: center;
+}
+
+.projectDrpn {
+   font-family: "Helvetica";
+   font-size: 16px;
+   color: rgb(70, 70, 70);
+}
+
+.titleImg {
+   height: 190px;
+}
+
+.centerTextBlock {
+   margin: auto;
+   width: 80%;
+}
+
+.battleAR {
+   width: 800px;
 }
